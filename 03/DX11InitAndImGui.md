@@ -59,7 +59,7 @@
 
 ####  구현 결과
 
-![image](https://github.com/user-attachments/assets/980fd357-df3f-4324-bf46-75204c667f7c)
+![canvasColor](https://github.com/user-attachments/assets/de79cb55-00f7-4e0b-95b1-4ce580ab9dc8)
 
 - DirectX는 속도를 높이기 위해서 그래픽스 파이프라인을 여러 단계로 쪼개었다. 기본적으로 vertext shader와 pixel shader를 사용하고 더 고급 기능을 구현할땐 다른 여러가지 shader를 사용할 수 있다. (Compute shader, Realtime Raytracing을 사용하기위한 여러 가지 쉐이더 등)
 - DX의 실시간 그래픽스 파이프라인은 Rasterization을 기본적으로 사용한다.
