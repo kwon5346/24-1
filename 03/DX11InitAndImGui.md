@@ -11,15 +11,17 @@
 
 ####  구현한 내용
 
-![image-20240808153554360](/Users/sunho/Library/Application Support/typora-user-images/image-20240808153554360.png)
+![image](https://github.com/user-attachments/assets/4858a8b5-cec6-42f6-b8fc-34553442875c)
+
 
 - 삼항 연산자를 이용하여 i가 증가할 때마다 pixelColor를 red, green, blue로 변하면서 픽셀 한칸씩 이동하도록 Update함수 구현
 
-![image-20240808155237353](/Users/sunho/Library/Application Support/typora-user-images/image-20240808155237353.png) 
+![image](https://github.com/user-attachments/assets/9860a05c-f56f-499c-ade9-4d7983bf4a60)
 
 - imGui의 SliderFloat3 함수에서 canvasColor를 변경하기위해 example class에 canvasColor 배열 선언
 
-![image-20240808224850419](/Users/sunho/Library/Application Support/typora-user-images/image-20240808224850419.png)
+![image](https://github.com/user-attachments/assets/e6d3f084-8330-4805-a159-22cb223786f6)
+
 
 - 'Imgui::SliderFloat3("RGB(0.0)-> 1.0", example->canvasColor, 0.0f, 1.0f)'로 배경 RGB 색상 값을 조정하는 슬라이더를 생성한다.
 - example->Update()에서는 그릴 것들을 메모리에 업데이트 해주고
@@ -57,7 +59,7 @@
 
 ####  구현 결과
 
-![canvasColor](/Users/sunho/Desktop/New Folder With Items/canvasColor.gif)
+![image](https://github.com/user-attachments/assets/980fd357-df3f-4324-bf46-75204c667f7c)
 
 - DirectX는 속도를 높이기 위해서 그래픽스 파이프라인을 여러 단계로 쪼개었다. 기본적으로 vertext shader와 pixel shader를 사용하고 더 고급 기능을 구현할땐 다른 여러가지 shader를 사용할 수 있다. (Compute shader, Realtime Raytracing을 사용하기위한 여러 가지 쉐이더 등)
 - DX의 실시간 그래픽스 파이프라인은 Rasterization을 기본적으로 사용한다.
