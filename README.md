@@ -43,6 +43,6 @@
     - [ImageProcessing.md](https://github.com/kwon5346/24-2/blob/main/04/ImageProcessing.md)
 
 - 5주차 활동기록
-
+    
 
   
