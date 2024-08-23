@@ -35,6 +35,7 @@
 - 3주차 활동기록
     - DX11 초기화 및 Imgui 관련 함수 공부 및 구현 실습
     - swapChain에 대한 이해
+    - [DX11InitAndImGui.md](https://github.com/kwon5346/24-2/blob/main/03/DX11InitAndImGui.md)
     
 
 - 4주차 활동기록
