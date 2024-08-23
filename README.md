@@ -38,6 +38,8 @@
     
 
 - 4주차 활동기록
+    - 이미지 처리(밝기 조절, 애니메이션 효과)알고리즘 이해 및 구현
+    - [ImageProcessing.md](https://github.com/kwon5346/24-2/blob/main/04/ImageProcessing.md)
 
 - 5주차 활동기록
 
