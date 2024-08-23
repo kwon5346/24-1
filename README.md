@@ -43,6 +43,9 @@
     - [ImageProcessing.md](https://github.com/kwon5346/24-2/blob/main/04/ImageProcessing.md)
 
 - 5주차 활동기록
-    
+    - Gaussian Blur구현과 커널을 픽셀에 적용시키는 방법(convolution, separable convolution)개념 이해
+    - [GaussianBlur.md](https://github.com/kwon5346/24-2/blob/main/05/GaussianBlur/GaussianBlur.md)
+    - Bloom효과를 구현하는 원리에대한 이해, 구현 실습
+    - [BloomEffect.md](https://github.com/kwon5346/24-2/blob/main/05/BloomEffect/BloomEffect.md)
 
   
